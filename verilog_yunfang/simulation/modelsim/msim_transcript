@@ -1,0 +1,351 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do verilog_yunfang_run_msim_gate_verilog.do 
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Copying C:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# vlog -vlog01compat -work altera_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# 
+# vlib verilog_libs/cycloneive_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneive_ver".
+# 
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cycloneive_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneive_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is zwq@ADOGE.
+# 
+# vlib gate_work
+# ** Warning: (vlib-34) Library already exists at "gate_work".
+# 
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {verilog_yunfang_8_1200mv_85c_slow.vo}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module verilog_yunfang
+# 
+# Top level modules:
+# 	verilog_yunfang
+# 
+# vlog -vlog01compat -work work +incdir+D:/program/d\ amplifier/verilog_yunfang/simulation/modelsim {D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module verilog_yunfang_vlg_tst
+# 
+# Top level modules:
+# 	verilog_yunfang_vlg_tst
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  verilog_yunfang_vlg_tst
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps verilog_yunfang_vlg_tst 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.verilog_yunfang_vlg_tst(fast)
+# Loading work.verilog_yunfang(fast)
+# Loading altera_ver.dffeas(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__1)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__4)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__5)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__6)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__7)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__8)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__9)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__10)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__11)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__12)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__13)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__14)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__15)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__16)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__17)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__18)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__19)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__20)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__21)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__22)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__23)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__24)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__25)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__26)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__27)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__28)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__29)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__30)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__31)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__32)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__33)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__34)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__35)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__36)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__37)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__38)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__39)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__40)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__41)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__42)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__43)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__44)
+# Loading cycloneive_ver.cycloneive_clkctrl(fast)
+# Loading cycloneive_ver.cycloneive_mux41(fast)
+# Loading cycloneive_ver.cycloneive_ena_reg(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__45)
+# Loading cycloneive_ver.cycloneive_io_obuf(fast)
+# Loading cycloneive_ver.cycloneive_io_ibuf(fast)
+# Loading cycloneive_ver.cycloneive_pll(fast)
+# Loading cycloneive_ver.cycloneive_m_cntr(fast)
+# Loading cycloneive_ver.cycloneive_n_cntr(fast)
+# Loading cycloneive_ver.cycloneive_scale_cntr(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__46)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__47)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__48)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__49)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__50)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__51)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__52)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__53)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__54)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__55)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__56)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__57)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__58)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__59)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__60)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__61)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__62)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__63)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__64)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__65)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__66)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__67)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__68)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__69)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__70)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__71)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__72)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__73)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__74)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__75)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__76)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__77)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__78)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__79)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__80)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__81)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__82)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__83)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__84)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__85)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__86)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__87)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__88)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__89)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__90)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__91)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__92)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__93)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__94)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__95)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__96)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__97)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__98)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__99)
+# Loading instances from verilog_yunfang_8_1200mv_85c_v_slow.sdo
+# Loading timing data from verilog_yunfang_8_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /verilog_yunfang_vlg_tst File: D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: zwq  Hostname: ADOGE  ProcessID: 1112
+# 
+#           Attempting to use alternate WLF file "./wlftihdfg4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftihdfg4
+# 
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cycloneive PLL locked to incoming clock
+# Time: 93102  Instance: verilog_yunfang_vlg_tst.i1.\pll_400M_inst|altpll_component|auto_generated|pll1 
+# Break in Module verilog_yunfang_vlg_tst at D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt line 60
+# Simulation Breakpoint: Break in Module verilog_yunfang_vlg_tst at D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt line 60
+# MACRO ./verilog_yunfang_run_msim_gate_verilog.do PAUSED at line 30

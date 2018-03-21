@@ -1,0 +1,58 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\zwq\Desktop\d amplifier\verilog_yunfang\simulation\modelsim
+T_opt
+VAHlI_^boGd0I7z=kz[f?K3
+Z1 04 23 4 work verilog_yunfang_vlg_tst fast 0
+=1-fce53a116324-58abe756-ba-458
+Z2 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L cycloneive_ver -L gate_work -L work +acc
+n@_opt
+Z3 OL;O;10.1c;51
+Z4 dC:\Users\zwq\Desktop\d amplifier\verilog_yunfang\simulation\modelsim
+T_opt1
+VN0kLQB[1MQM]7IC;IXle;0
+R1
+=1-340286a4c6b2-58e3369b-7a-3334
+R2
+n@_opt1
+R3
+vverilog_yunfang
+IVgYn@;hiEnoed?dLZGfga3
+VcBRMEezUmmle?VSn4W?jP2
+Z5 dD:\program\d amplifier\verilog_yunfang\simulation\modelsim
+w1491285617
+8verilog_yunfang_8_1200mv_85c_slow.vo
+Fverilog_yunfang_8_1200mv_85c_slow.vo
+L0 31
+Z6 OL;L;10.1c;51
+r1
+31
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 LDg`hU`FmaJYO4HT4SCCC2
+!s85 0
+!s108 1491285658.343000
+!s107 verilog_yunfang_8_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|verilog_yunfang_8_1200mv_85c_slow.vo|
+!s92 -vlog01compat -work work +incdir+. -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vverilog_yunfang_vlg_tst
+IO89gE_hN6CaVE^zJZ1el]1
+VCon;dPH5[G?3NOVUK5UN]1
+R5
+w1491278613
+8D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt
+FD:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt
+L0 28
+R6
+r1
+31
+R7
+!i10b 1
+!s100 Voo29ciOb<AcSB3O6nC[B2
+!s85 0
+!s108 1491285658.501000
+!s107 D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang/simulation/modelsim|D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt|
+!s92 -vlog01compat -work work {+incdir+D:/program/d amplifier/verilog_yunfang/simulation/modelsim} -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF

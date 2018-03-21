@@ -1,0 +1,7 @@
+
+State Machine - |verilog_yunfang|signal_module:U1|state
+Name state.Low state.Down state.Hold state.Up 
+state.Up 0 0 0 0 
+state.Hold 0 0 1 1 
+state.Down 0 1 0 1 
+state.Low 1 0 0 1 

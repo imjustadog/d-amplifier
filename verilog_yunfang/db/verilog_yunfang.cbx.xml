@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="verilog_yunfang">
+		<CBX_INST_ENTRY INSTANCE_NAME="|verilog_yunfang|pll_400M:pll_400M_inst|altpll:altpll_component" CBX_FILE_NAME="pll_400M_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

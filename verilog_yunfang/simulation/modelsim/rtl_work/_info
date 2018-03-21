@@ -1,0 +1,159 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\program\d amplifier\verilog_yunfang\simulation\modelsim
+vadc_module
+IHA`<<jPX4AE`N4H7F6>`K0
+ViJ7m>[iVOHlH;m5bHHW393
+Z1 dD:\program\d amplifier\verilog_yunfang\simulation\modelsim
+w1488248690
+8D:/program/d amplifier/verilog_yunfang/adc_module.v
+FD:/program/d amplifier/verilog_yunfang/adc_module.v
+L0 1
+Z2 OL;L;10.1c;51
+r1
+31
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z4 !s92 -vlog01compat -work work {+incdir+D:/program/d amplifier/verilog_yunfang} -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 e<TDa9FR4b8D7f6LG2HgX2
+!s85 0
+!s108 1491269417.048000
+!s107 D:/program/d amplifier/verilog_yunfang/adc_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang|D:/program/d amplifier/verilog_yunfang/adc_module.v|
+vpid_module
+I8h3PblB77X^WmkLI0oLe03
+VKJNoC?^j[6068kcPT@HNC0
+R1
+w1488251016
+8D:/program/d amplifier/verilog_yunfang/pid_module.v
+FD:/program/d amplifier/verilog_yunfang/pid_module.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 N]CF:Za5n?KNOWj6f[fEX1
+!s85 0
+!s108 1491269417.124000
+!s107 D:/program/d amplifier/verilog_yunfang/pid_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang|D:/program/d amplifier/verilog_yunfang/pid_module.v|
+vpll_400M
+I_40[53?V9LP[@`SP2NRQ33
+Vk4Jha7g1PNL>iA_kG`3lS2
+R1
+w1487694059
+8D:/program/d amplifier/verilog_yunfang/pll_400M.v
+FD:/program/d amplifier/verilog_yunfang/pll_400M.v
+L0 39
+R2
+r1
+31
+R3
+R4
+npll_400@m
+!i10b 1
+!s100 e>0c^1]kFUi9oC@^WGd730
+!s85 0
+!s108 1491269417.196000
+!s107 D:/program/d amplifier/verilog_yunfang/pll_400M.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang|D:/program/d amplifier/verilog_yunfang/pll_400M.v|
+vpll_400M_altpll
+INS2MO_<IV_n4`_RFI5ha_0
+V^eeK<6EMRGLK1Vc6oaznC1
+R1
+w1487694102
+8D:/program/d amplifier/verilog_yunfang/db/pll_400m_altpll.v
+FD:/program/d amplifier/verilog_yunfang/db/pll_400m_altpll.v
+L0 30
+R2
+r1
+31
+R3
+npll_400@m_altpll
+!i10b 1
+!s100 mlY3Z9@hFeU4dB3e@OgVk1
+!s85 0
+!s108 1491269417.273000
+!s107 D:/program/d amplifier/verilog_yunfang/db/pll_400m_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang/db|D:/program/d amplifier/verilog_yunfang/db/pll_400m_altpll.v|
+!s92 -vlog01compat -work work {+incdir+D:/program/d amplifier/verilog_yunfang/db} -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vpwm_module
+II?;AZ[E7c[OZL8=^Dg2He3
+VB_E:32IiZjo4aO?bN0X<90
+R1
+w1488129586
+8D:/program/d amplifier/verilog_yunfang/pwm_module.v
+FD:/program/d amplifier/verilog_yunfang/pwm_module.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 XdEelo6[B@GD_h`boZczS3
+!s85 0
+!s108 1491269416.976000
+!s107 D:/program/d amplifier/verilog_yunfang/pwm_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang|D:/program/d amplifier/verilog_yunfang/pwm_module.v|
+vsignal_module
+IF>Xg@O_`AU33:<QZa5oCG3
+Vb]4m_hUdoE@WjF8lob^oV3
+R1
+w1487781354
+8D:/program/d amplifier/verilog_yunfang/signal_module.v
+FD:/program/d amplifier/verilog_yunfang/signal_module.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 1Sc6>fNkfOO3A41N>zFWb0
+!s85 0
+!s108 1491269417.345000
+!s107 D:/program/d amplifier/verilog_yunfang/signal_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang|D:/program/d amplifier/verilog_yunfang/signal_module.v|
+vverilog_yunfang
+I5EC?<T_IBW?GZcN>jz2:]3
+VbPTFHFDCbcC6PKeeo6k:F2
+R1
+w1491269181
+8D:/program/d amplifier/verilog_yunfang/verilog_yunfang.v
+FD:/program/d amplifier/verilog_yunfang/verilog_yunfang.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 2Z1oYU98=:DdE=^@8DSzQ0
+!s85 0
+!s108 1491269416.900000
+!s107 D:/program/d amplifier/verilog_yunfang/verilog_yunfang.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang|D:/program/d amplifier/verilog_yunfang/verilog_yunfang.v|
+vverilog_yunfang_vlg_tst
+!i10b 1
+!s100 hI>HPhXZWOg0Uf7B?SE=L3
+Ia<IoLXY?;a>:7Y0H11Hf^1
+VCon;dPH5[G?3NOVUK5UN]1
+R1
+w1488248384
+8D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt
+FD:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1491269417.420000
+!s107 D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/program/d amplifier/verilog_yunfang/simulation/modelsim|D:/program/d amplifier/verilog_yunfang/simulation/modelsim/verilog_yunfang.vt|
+R3
+!s92 -vlog01compat -work work {+incdir+D:/program/d amplifier/verilog_yunfang/simulation/modelsim} -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF

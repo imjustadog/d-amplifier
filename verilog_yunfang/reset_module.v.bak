@@ -1,0 +1,3 @@
+module reset_module(
+						clk,rst_n,locked
+);
